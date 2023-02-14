@@ -332,7 +332,7 @@ def carousel():
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
                     <link rel="stylesheet" type="text/css" href="{url_for('static', filename='/css/style.css')}" />
-                    <title>Отбор астронавтов</title>
+                    <title>Пейзажи Марса</title>
                 </head>
                 <body>
                 <h1>Пейзажи Марса</h1>
@@ -348,34 +348,16 @@ def carousel():
                       <div class="item active">
                         <img src="{url_for('static', filename='img/landscape3.jpg')}" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Лавины на откосах на северном полюсе Марса.</h5>
-                                <p>Материал, включающий в себя лед и пыль и, возможно, большие валуны, 
-                                откалывается от нависшего утеса и каскадом сходит с более мягких скатов.
-                                Это отложение составляет примерно 180 метров в диаметре и растягивается
-                                на 190 метров от основания утеса. 
-                                </p>
                             </div>
                       </div>
                       <div class="item">
                         <img src="{url_for('static', filename='img/landscape2.jpg')}" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Кратер Виктория в Meridiani Planum.</h5>
-                                <p>Кратер составляет примерно 800 метров в диаметре. 
-                                Слоистые осадочные породы отложились вдоль внешней стены кратера,
-                                а на дне кратера видны валуны, отколовшиеся от стены кратера. 
-                                В пределах стен этого кратера взорвался марсоход НАСА.
-                                </p>
                             </div>
                       </div>
                       <div class="item">
                         <img class="d-block w-100" src="{url_for('static', filename='img/landscape1.jpg')}" alt="Third slide">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Скалистые плоскогорья региона Nilosyrtis Mensae.</h5>
-                            <p>Филлосиликатные (глиняные) минералы были найдены в регионе 
-                            с помощью спектрометров космических аппаратов «Mars Express» и
-                            «MRO», они представляют огромный интерес для поиска доказательств
-                            жизни на древнем Марсе. 
-                            </p>
                         </div>
                       </div>
                     </div>
